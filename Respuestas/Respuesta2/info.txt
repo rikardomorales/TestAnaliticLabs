@@ -1,0 +1,14 @@
+----------------------------------------------------------------------------------------
+----Write a function that returns the count of distinct case-insensitive alphabetic-----
+-----characters and numeric digits occurring more than once in an input string. E-------
+----------------------------------------------------------------------------------------
+la respuesta se encuentra en la clase TestController,
+se puede probar consumiento el siguiente servicio:
+
+HTTP GET:
+http://localhost:8989/test/getCountCaracter?str=aabbcde
+
+
+NOTA:
+En el git se encuentra el codigo fuente.
+codigoFuente/test/
