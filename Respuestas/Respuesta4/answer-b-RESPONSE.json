@@ -1,0 +1,32 @@
+[
+    {
+        "id": 4,
+        "ip": "192.123.1.2",
+        "status": "Activo",
+        "busId": {
+            "id": 4,
+            "type": "Bi-articulado",
+            "motor": "Híbrido",
+            "breaks": "Hidraulicos",
+            "concessionaireId": {
+                "id": 4,
+                "name": "Blanco Y Negro"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "ip": "192.123.1.2",
+        "status": "Inactivo",
+        "busId": {
+            "id": 4,
+            "type": "Bi-articulado",
+            "motor": "Híbrido",
+            "breaks": "Hidraulicos",
+            "concessionaireId": {
+                "id": 4,
+                "name": "Blanco Y Negro"
+            }
+        }
+    }
+]

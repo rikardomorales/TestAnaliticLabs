@@ -1,0 +1,10 @@
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+Se utilizo una base de datos SQL Server version 12.0.
+Se adjunta:
+ - la data insertada.
+ - Imagenes de los resultados.
+ - Modelo Entidad Relación(MER.png).
+ - Excel con la data que se inserto para realizar la prueba.
+ - Querys realizados(QuerysQuestion3.sql)

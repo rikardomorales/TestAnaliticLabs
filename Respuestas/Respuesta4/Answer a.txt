@@ -1,0 +1,30 @@
+------------------------------------------------------------------------
+--------------- a. What HTTP endpoints and methods would---------------- 
+--------------------you enable for creation, reading,-------------------
+-----------------------modification and deletion?-----------------------
+------------------------------------------------------------------------
+- creation:
+HTTP POST
+http://localhost:8989/bus/save
+
+- reading:
+HTTP GET
+http://localhost:8989/bus/getAll
+
+- modification:
+HTTP PUT
+http://localhost:8989/bus/update
+
+- deletion:
+HTTP DELETE
+http://localhost:8989/bus/delete?id=101
+
+
+------------------------------------------------------------------------
+--------------- b. How can be a hierarchical access to enable-----------
+-------------------the front-end for querying devices-------------------
+-----------------------belonging to a specific bus?---------------------
+------------------------------------------------------------------------
+- reading:
+HTTP GET
+http://localhost:8989/device/getDeviceByDeviceId?busId=4
